@@ -1,0 +1,30 @@
+/* ---- particles.js container ---- */
+#particles-js{
+  width: 100%;
+  height: 85%;
+  background-color: #b61924;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+#words {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin: 0 auto;
+    transform: translate(-50%,-50%);
+    -moz-user-select: none; /*mozilar*/
+    -webkit-user-select: none; /*webkit*/
+    -ms-user-select: none; /*IE*/
+    user-select: none;
+    pointer-events: none;
+}
+#click {
+    -moz-user-select: none; /*mozilar*/
+    -webkit-user-select: none; /*webkit*/
+    -ms-user-select: none; /*IE*/
+    user-select: none;
+}
